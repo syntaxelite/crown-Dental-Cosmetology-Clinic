@@ -9,10 +9,10 @@ export function WhyCrown({ points }: WhyCrownProps) {
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
             <p className="mb-3 text-xs font-semibold uppercase tracking-[0.28em] text-emerald-700">
-              Why Crown
+              About Dhiya Physiocare
             </p>
             <h2 className="text-3xl font-semibold tracking-[-0.05em] text-stone-900 md:text-5xl">
-              Thoughtful care built around your comfort and confidence.
+              Patient-centered care for recovery, movement, and confidence.
             </h2>
           </div>
 

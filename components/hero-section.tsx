@@ -11,29 +11,28 @@ export function HeroSection() {
         <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="max-w-xl">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-emerald-900/10 bg-white/80 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-emerald-800 shadow-sm">
-              Trusted dental care in Erode
+              Trusted physiotherapy care in Erode
             </div>
             <h1 className="text-4xl font-semibold tracking-[-0.07em] text-stone-900 sm:text-5xl lg:text-4xl xl:text-5xl">
-              Expert dental &amp; cosmetic care, under one roof.
+              Helping you move better. Helping children grow stronger.
             </h1>
             <p className="mt-6 max-w-lg text-base leading-8 text-stone-600 md:text-lg">
-              Personalized dentistry and refined aesthetic treatments in a calm, modern setting, with comfort and confidence at every step.
+              Personalized physiotherapy and child-focused therapy support in a warm, clinical setting designed around comfort, recovery, and clear guidance.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <AppointmentLink />
               <Link
-                href="#dental"
+                href="#services"
                 className="inline-flex items-center justify-center rounded-full border border-stone-300 bg-white px-6 py-3.5 text-sm font-semibold text-stone-800 transition-colors hover:border-stone-400 hover:bg-stone-50"
               >
-                View Services
+                Explore Our Services
               </Link>
             </div>
 
             <div className="mt-8 flex flex-wrap items-center gap-6 text-sm text-stone-600">
               <div className="flex items-center gap-2 rounded-full border border-stone-200 bg-white/80 px-3 py-2">
-                <span className="text-lg text-amber-500">★</span>
-                <span className="font-semibold text-stone-800">{clinic.googleRating}</span>
+                <span className="text-base font-semibold text-emerald-800">{clinic.googleRating}</span>
               </div>
               <span className="font-medium">{clinic.reviewCount}</span>
             </div>
@@ -45,11 +44,11 @@ export function HeroSection() {
                 role="img"
                 className="aspect-[4/5] min-h-[360px] rounded-[1.5rem] bg-[#e5ebe6] bg-cover bg-center lg:min-h-[500px]"
                 style={{ backgroundImage: `url('${clinic.heroImage}')` }}
-                aria-label="Dental clinic treatment room"
+                aria-label="Physiotherapy and child therapy care"
               />
               <div className="absolute inset-x-7 bottom-7 rounded-2xl border border-stone-200 bg-white/95 p-4 shadow-lg">
                 <p className="text-sm font-semibold text-stone-900">
-                  Dental and cosmetic care in Erode
+                  Recovery-focused physiotherapy and child therapy in Erode
                 </p>
               </div>
             </div>

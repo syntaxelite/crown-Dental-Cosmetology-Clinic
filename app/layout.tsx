@@ -13,16 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Crown Dental & Cosmetology Clinic | Dental & Cosmetic Care in Erode",
+  title: "Dhiya Physiocare and Childtherapy Clinic | Physiotherapy & Child Therapy in Erode",
   description:
-    "Premium dental and cosmetic care in Erode, Tamil Nadu. Comprehensive dental services, cosmetic dentistry, and permanent makeup under one roof.",
+    "Physiotherapy and child therapy care in Erode, Tamil Nadu. Patient-centered rehabilitation support, movement care, and a comfortable family-friendly clinic experience.",
   keywords: [
-    "Dental clinic in Erode",
-    "Dentist in Erode",
-    "Dental implants Erode",
-    "Invisalign Erode",
-    "Cosmetic dentistry Erode",
-    "Permanent makeup Erode",
+    "Physiotherapy clinic in Erode",
+    "Child therapy in Erode",
+    "Physiocare Erode",
+    "Rehabilitation clinic Erode",
+    "Movement therapy Erode",
+    "Physiotherapy and child therapy Tamil Nadu",
   ],
 };
 

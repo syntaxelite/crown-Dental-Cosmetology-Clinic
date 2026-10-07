@@ -15,14 +15,14 @@ export function SiteHeader() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
           <Link href="#home" className="flex items-center gap-3" aria-label={clinic.name}>
             <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-emerald-900 text-sm font-semibold text-stone-50 shadow-sm">
-              C
+              DP
             </div>
             <div>
               <p className="text-[10px] font-medium uppercase tracking-[0.25em] text-emerald-700">
-                Crown
+                Dhiya
               </p>
               <p className="text-xs font-semibold leading-tight text-stone-900 sm:text-sm">
-                Dental &amp; Cosmetology Clinic
+                Physiocare &amp; Childtherapy
               </p>
             </div>
           </Link>
